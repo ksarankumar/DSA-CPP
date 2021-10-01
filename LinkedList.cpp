@@ -50,8 +50,9 @@ struct Node* insertAtEnd_LL(struct Node* head, int data)
 Node* insertAtGivenPos_LL(Node* head, int data,int pos)  // we can insert up to sizeOf_LL + 1 , pos <= sizeOf_LL+1
 {
 	Node* temp = new Node(data);
-	if (pos == 1) //inser at head
+	if (pos == 1) //inser at head sample text
 	{
+		head = NULL;
 
 	}
 
